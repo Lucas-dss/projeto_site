@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(194, 255, 245);
+  width: auto;
+  margin: auto;
+  border: 3px dashed red;
+}
+body.outset {outline-style: outset;}
+h1 {
+  color: blue;
+  background-color: rgb(255, 208, 108);
+  width: 110px;
+  border: 25px solid green;
+  padding: 10px;
+  margin: 20px;
+}
+b {
+  text-align: center;
+  height: 20px;
+}
+button{
+  transform: matrix(10, 0, 0.5, 5, 550, 0);
+}
+marquee{
+  transform: matrix(0.8, 0, 0.5, 3, 100, 0);
+}
